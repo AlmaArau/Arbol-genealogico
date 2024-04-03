@@ -1,0 +1,44 @@
+body{
+    background-image: url("../images/background-index.JPG");
+    background-size: cover;
+    height: 500px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    background-color: black;
+}
+
+header h1{
+    color: white;
+    text-align: center;
+
+    /*Cambiar fuente---------- */
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+
+    font-size: 70px;
+
+
+}
+
+header h1 img{
+    display: block;
+    height: 50px;
+    padding-left: 10px;
+}
+
+
+footer{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: #5D5A5A;
+    height: 100px;
+}
+
