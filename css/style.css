@@ -21,8 +21,8 @@ header h1{
     font-optical-sizing: auto;
     font-weight: 700;
     font-style: normal;
-
     font-size: 70px;
+    /*----------------------*/
 
 
 }
@@ -31,6 +31,61 @@ header h1 img{
     display: block;
     height: 50px;
     padding-left: 10px;
+}
+
+/*-------barra de navegacion-----------*/
+.navbar {
+    background-color: black;
+    /*background-image: url("../images/background-nav.jpg");*/
+    text-align: center;
+}
+
+.nav-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-list li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.nav-list li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+
+    /*Cambiar fuente---------- */
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 30px;
+    /*----------------------*/
+}
+
+.nav-list li a:hover {
+    /*background-color: #333;
+    background-image: url("../images/background-nav.jpg");
+    color: black;
+    font-weight: 700;*/
+
+    
+}
+
+
+#nav-yo :hover{
+    background-image: url("../images/subrayado.PNG");
+    background-repeat: no-repeat;
+    background-size: 60px 45px;
+}
+
+#nav-hermanos :hover{
+    background-image: url("../images/subrayado-2.PNG");
+    background-repeat: no-repeat;
+    background-size: 180px 40px;   
 }
 
 
