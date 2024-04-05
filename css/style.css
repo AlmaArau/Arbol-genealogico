@@ -1,3 +1,6 @@
+/*En esta seccion del archivo CSS se controlan aspectos como la posicion y distribucion
+visual (Posicion de imagenes, centrar textos, cajas flexbox, etc...) "Maquetado"*/
+
 body {
     background-image: url("../images/background-index.JPG");
     background-size: cover;
@@ -6,8 +9,6 @@ body {
 
 header {
     padding: 20px 0;
-    background-color: #000000;
-    /*debe ser negro (rojo solo para des)*/
 }
 
 .header {
@@ -18,17 +19,8 @@ header {
 }
 
 header h1 {
-    color: white;
     text-align: center;
-
-    /*Cambiar fuente---------- */
-    font-family: "Caveat", cursive;
-    font-optical-sizing: auto;
-    font-weight: 700;
-    font-style: normal;
     font-size: 70px;
-    /*----------------------*/
-
 }
 
 .logo img {
@@ -39,17 +31,14 @@ header h1 {
 
 .tittle {
     position: absolute;
-    padding: 0 0 0 40%;
-    /*arriba, der, abajo, izq*/
+    padding: 0 0 0 40%; /*arriba, der, abajo, izq*/
 }
 
-/*-------barra de navegacion------------------------------------------*/
+
 .navbar {
     padding: 10px 0;
-    background-color: black;
     text-align: center;
     height: auto;
-
 }
 
 .nav-list {
@@ -64,18 +53,11 @@ header h1 {
 }
 
 .nav-list li a {
-    color: white;
     text-decoration: none;
     padding: 10px 20px;
     display: block;
-
-    /*Cambiar fuente---------- */
-    font-family: "Caveat", cursive;
-    font-optical-sizing: auto;
-    font-weight: 700;
-    font-style: normal;
+   
     font-size: 28px;
-    /*----------------------*/
 }
 
 
@@ -123,13 +105,49 @@ header h1 {
     background-size: 170px 40px;
 }
 
-/*------------------------------------------------------------------------*/
+.main-content{
+    margin: 50px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center; /*Para alinear elementos en una linea central*/
+    gap: 5%;
+}
+
+p{
+    font-size: 2em;
+}
 
 
 footer {
     display: flex;
     justify-content: center;
     text-align: center;
-    background-color: #5D5A5A;
     height: 100px;
+}
+
+/*------------------------------------------------------------------------*/
+/*En esta seccion de CSS se controlan aspectos como colores de fondo, 
+fuentes, color de texto, etc...*/
+
+.caveat-font{
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.bg-black{
+    background-color: black;
+}
+
+.bg-white{
+    background-color: white;
+}
+
+.bg-grey{
+    background-color: #5D5A5A;
+}
+
+.text-white{
+    color: white;
 }
