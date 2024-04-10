@@ -106,22 +106,50 @@ header h1 {
     background-size: 170px 40px;
 }
 
-.main-content {
-    margin: 50px 50px 10px 50px;
+.main-contentAlma {
+    margin: 60px;
     display: flex;
-    flex-direction: row-reverse;
+    justify-content: center;
     align-items: center;
     /*Para alinear elementos en una linea central*/
-    gap: 5%;
+    
 }
 
-.aside-alma img{
+.foto-alma img {
     height: 800px;
+    transform: rotate(-8deg);
 }
 
-/* p {
-    font-size: 2em;
-} */
+.alma-intereses{
+    /* display: flex;
+    flex-wrap: wrap; */
+    width: 650px;
+    
+}
+
+.alma-interesesFotos{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+#peliculas-Alma{
+    margin-top: 65px;
+}
+
+#viajes-Alma{
+    margin-top: -60px;
+}
+
+.acerca-de-mi{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.acerca-de-mi-parrafo{
+    width: 55%;
+}
 
 
 footer {
@@ -135,11 +163,8 @@ footer {
 
 
 /* Seccion para controlar maquetado de la pagina de seleccion para papás -----------*/
-#main-papas{
-    /* height: 400px; */
-}
 
-.papas-container{
+.papas-container {
     margin: 40px;
 }
 
@@ -149,28 +174,46 @@ footer {
     gap: 50px;
 }
 
-aside {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+.iconos-familia{
+    transition: transform 0.3s ease-in-out;
 }
 
-aside img {
+.iconos-familia:hover{
+    transform: scale(1.2);
+}
+
+figure a img {
     height: 250px;
 }
+
 /* Seccion para maquetado especifico de la pagina "Mi Mamá" --------------------*/
 
-.bg-rayas{
+.bg-rayas {
     background-image: url("../images/backgrounds/HojaRayas.jpg");
 }
-.intereses-mama{
+
+.main-contentMama {
+    margin: 50px 50px 10px 50px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    /*Para alinear elementos en una linea central*/
+    gap: 5%;
+}
+
+.foto-mama img {
+    height: 800px;
+    transform: rotate(3deg);
+}
+
+.intereses-mama {
     margin: 50px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
 }
 
-.mid-intereses{
+.mid-intereses {
     display: flex;
     flex-direction: column;
 }
@@ -208,12 +251,20 @@ fuentes, color de texto, etc...*/
     color: white;
 }
 
+.text-black{
+    color: black;
+}
+
 .justify-text {
     text-align: justify;
 }
 
 .center-text {
     text-align: center;
+}
+
+.right-text{
+    text-align: right;
 }
 
 .h1-size {
@@ -224,11 +275,19 @@ fuentes, color de texto, etc...*/
     font-size: 50px;
 }
 
+.p-size-1em{
+    font-size: 1.5em;
+}
+
+.p-size-2em{
+    font-size: 2em;
+}
+
 .p-size {
     font-size: 20px;
 }
 
-.p-sizeBig{
+.p-sizeBig {
     font-size: 45px;
 }
 
@@ -236,10 +295,14 @@ fuentes, color de texto, etc...*/
     line-height: 1.5;
 }
 
-.no-decoration{
+.no-decoration {
     text-decoration: none;
 }
 
-.img-midSize{
+.img-midSize {
     height: 300px;
+}
+
+.img-smallSize{
+    height: 250px;
 }
