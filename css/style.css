@@ -20,7 +20,7 @@ header {
 
 header h1 {
     text-align: center;
-    font-size: 70px;
+    /* font-size: 70px; */
 }
 
 .logo img {
@@ -31,7 +31,8 @@ header h1 {
 
 .tittle {
     position: absolute;
-    padding: 0 0 0 40%; /*arriba, der, abajo, izq*/
+    padding: 0 0 0 40%;
+    /*arriba, der, abajo, izq*/
 }
 
 
@@ -56,7 +57,7 @@ header h1 {
     text-decoration: none;
     padding: 10px 20px;
     display: block;
-   
+
     font-size: 28px;
 }
 
@@ -105,17 +106,22 @@ header h1 {
     background-size: 170px 40px;
 }
 
-.main-content{
+.main-content {
     margin: 50px;
     display: flex;
     flex-direction: row-reverse;
-    align-items: center; /*Para alinear elementos en una linea central*/
+    align-items: center;
+    /*Para alinear elementos en una linea central*/
     gap: 5%;
 }
 
-p{
-    font-size: 2em;
+.aside-alma img{
+    height: 800px;
 }
+
+/* p {
+    font-size: 2em;
+} */
 
 
 footer {
@@ -125,29 +131,94 @@ footer {
     height: 100px;
 }
 
+
+
+/* Seccion para controlar maquetado de la pagina de seleccion para papás */
+#main-papas{
+    /* height: 400px; */
+}
+
+.papas-container{
+    margin: 40px;
+}
+
+.papas-icons {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+aside {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+aside img {
+    height: 250px;
+}
+
 /*------------------------------------------------------------------------*/
 /*En esta seccion de CSS se controlan aspectos como colores de fondo, 
 fuentes, color de texto, etc...*/
 
-.caveat-font{
+.caveat-font {
     font-family: "Caveat", cursive;
     font-optical-sizing: auto;
     font-weight: 700;
     font-style: normal;
 }
 
-.bg-black{
+.gochi-hand {
+    font-family: "Gochi Hand", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.bg-black {
     background-color: black;
 }
 
-.bg-white{
+.bg-white {
     background-color: white;
 }
 
-.bg-grey{
+.bg-grey {
     background-color: #5D5A5A;
 }
 
-.text-white{
+.text-white {
     color: white;
+}
+
+.justify-text {
+    text-align: justify;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.h1-size {
+    font-size: 70px;
+}
+
+.h2-size {
+    font-size: 50px;
+}
+
+.p-size {
+    font-size: 20px;
+}
+
+.p-sizeBig{
+    font-size: 45px;
+}
+
+.interline {
+    line-height: 1.5;
+}
+
+.no-decoration{
+    text-decoration: none;
 }
