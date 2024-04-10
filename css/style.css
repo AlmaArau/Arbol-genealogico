@@ -63,51 +63,51 @@ header h1 {
 
 
 #nav-yo :hover {
-    background-image: url("../images/subrayado.PNG");
+    background-image: url("../images/nav/subrayado.PNG");
     background-repeat: no-repeat;
     background-size: 60px 45px;
 }
 
 #nav-hermanos :hover {
-    background-image: url("../images/subrayado-2.PNG");
+    background-image: url("../images/nav/subrayado-2.PNG");
     background-repeat: no-repeat;
     background-size: 180px 40px;
 }
 
 #nav-papas :hover {
-    background-image: url("../images/subrayado-3.PNG");
+    background-image: url("../images/nav/subrayado-3.PNG");
     background-repeat: no-repeat;
     background-size: 140px 40px;
 }
 
 #nav-abuelos :hover {
-    background-image: url("../images/subrayado-4.PNG");
+    background-image: url("../images/nav/subrayado-4.PNG");
     background-repeat: no-repeat;
     background-size: 150px 40px;
 }
 
 #nav-tios :hover {
-    background-image: url("../images/subrayado-5.PNG");
+    background-image: url("../images/nav/subrayado-5.PNG");
     color: black;
     background-repeat: no-repeat;
     background-size: 120px 40px;
 }
 
 #nav-primos :hover {
-    background-image: url("../images/subrayado-6.PNG");
+    background-image: url("../images/nav/subrayado-6.PNG");
     color: black;
     background-repeat: no-repeat;
     background-size: 150px 40px;
 }
 
 #nav-sobrinos :hover {
-    background-image: url("../images/subrayado-7.PNG");
+    background-image: url("../images/nav/subrayado-7.PNG");
     background-repeat: no-repeat;
     background-size: 170px 40px;
 }
 
 .main-content {
-    margin: 50px;
+    margin: 50px 50px 10px 50px;
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
@@ -156,6 +156,18 @@ aside {
 
 aside img {
     height: 250px;
+}
+/* Seccion para maquetado especifico de la pagina "Mi Mamá" */
+.intereses-mama{
+    margin: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.mid-intereses{
+    display: flex;
+    flex-direction: column;
 }
 
 /*------------------------------------------------------------------------*/
@@ -221,4 +233,8 @@ fuentes, color de texto, etc...*/
 
 .no-decoration{
     text-decoration: none;
+}
+
+.img-midSize{
+    height: 300px;
 }
