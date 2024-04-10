@@ -2,7 +2,7 @@
 visual (Posicion de imagenes, centrar textos, cajas flexbox, etc...) "Maquetado"*/
 
 body {
-    background-image: url("../images/background-index.JPG");
+    background-image: url("../images/backgrounds/background-index.jpg");
     background-size: cover;
     height: 500px;
 }
@@ -126,14 +126,15 @@ header h1 {
 
 footer {
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    text-align: center;
-    height: 100px;
+    align-items: center;
+    height: 200px;
 }
 
 
 
-/* Seccion para controlar maquetado de la pagina de seleccion para papás */
+/* Seccion para controlar maquetado de la pagina de seleccion para papás -----------*/
 #main-papas{
     /* height: 400px; */
 }
@@ -157,7 +158,11 @@ aside {
 aside img {
     height: 250px;
 }
-/* Seccion para maquetado especifico de la pagina "Mi Mamá" */
+/* Seccion para maquetado especifico de la pagina "Mi Mamá" --------------------*/
+
+.bg-rayas{
+    background-image: url("../images/backgrounds/HojaRayas.jpg");
+}
 .intereses-mama{
     margin: 50px;
     display: flex;
