@@ -1,1 +1,2 @@
-.pdf
+# Ignorar archivos PDF
+*.pdf
