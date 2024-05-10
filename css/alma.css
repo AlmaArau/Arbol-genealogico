@@ -1,0 +1,94 @@
+.main-contentAlma {
+    margin: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*Para alinear elementos en una linea central*/
+
+}
+
+.foto-alma img {
+    height: 800px;
+    transform: rotate(-8deg);
+}
+
+.alma-intereses {
+    /* display: flex;
+    flex-wrap: wrap; */
+    width: 650px;
+
+}
+
+.alma-interesesFotos {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+#peliculas-Alma {
+    margin-top: 65px;
+}
+
+#viajes-Alma {
+    margin-top: -60px;
+}
+
+.acerca-de-mi {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.acerca-de-mi-parrafo {
+    width: 55%;
+}
+
+@media screen and (max-width:961px){
+    .main-contentAlma{
+        margin: 5%;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:601px) {
+    .main-contentAlma {
+        margin: 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+
+    .foto-alma img {
+        height: 400px;
+        transform: rotate(-8deg);
+    }
+
+    .alma-intereses{
+        width: auto;
+        text-align: center;
+    }
+
+    .alma-interesesFotos{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .alma-interesesFotos-item{
+        display: inline;
+    }
+
+    .img-smallSize {
+        /* height: 250px; */
+        width: 200px;
+    }
+
+    #peliculas-Alma {
+        margin: 0;
+    }
+
+    #viajes-Alma {
+        margin: 0;
+    }
+}
