@@ -7,7 +7,8 @@
 .parientes-icons {
     display: flex;
     justify-content: center;
-    gap: 50px;
+    flex-wrap: wrap;
+    gap: 5%;
 }
 
 .iconos-familia {
@@ -22,10 +23,30 @@ figure a img {
     height: 250px;
 }
 
+
+@media screen and (max-width:961px){
+    figure a img {
+        height: 200px;
+    }
+
+    .p-sizeBig {
+        font-size: 2em;
+     }
+}
+
 @media screen and (max-width:601px) {
     .parientes-icons{
         display: flex;
         flex-direction: column;
         text-align: center;
+        gap: 15px;
     }
+
+    figure a img {
+        height: 150px;
+    }
+
+    .p-sizeBig {
+        font-size: 1.7em;
+     }
 }

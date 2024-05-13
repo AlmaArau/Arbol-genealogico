@@ -192,9 +192,13 @@ fuentes, color de texto, etc...    Estilos en comun para TODO el sitio web*/
     font-size: 20px;
 }
 
-.p-sizeBig {
+/* .p-sizeBig {
     font-size: 45px;
-}
+ } */
+
+ .p-sizeBig {
+    font-size: 3em;
+ }
 
 .interline {
     line-height: 1.5;
@@ -209,12 +213,11 @@ fuentes, color de texto, etc...    Estilos en comun para TODO el sitio web*/
 }
 
 .img-smallSize {
-    /* height: 250px; */
-    width: 250px;
+    height: 250px;
 }
 
 /* ---------- Media Querys para diseño responsive en comun*/
-@media screen and (max-width:601px) {
+@media screen and (max-width:628px) {  /*601*/
 
     .header {
         display: flex;

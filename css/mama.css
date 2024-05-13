@@ -1,10 +1,10 @@
-/* Seccion para maquetado especifico de la pagina "Mi Mamá" --------------------*/
+/* Seccion para layout especifico de la pagina "Mi Mamá" --------------------*/
 
 .bg-rayas {
     background-image: url("../images/backgrounds/HojaRayas.jpg");
 }
 
-.main-contentMama {
+.main-contentFamiliar {
     margin: 50px 50px 10px 50px;
     display: flex;
     flex-direction: row-reverse;
@@ -13,12 +13,12 @@
     gap: 5%;
 }
 
-.foto-mama img {
+.foto-Familiar img {
     height: 800px;
     transform: rotate(3deg);
 }
 
-.intereses-mama {
+.interesesFamiliar {
     margin: 50px;
     display: flex;
     justify-content: space-evenly;
@@ -28,4 +28,39 @@
 .mid-intereses {
     display: flex;
     flex-direction: column;
+}
+
+@media screen and (max-width:961px){
+    .main-contentFamiliar{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .foto-Familiar img {
+        height: 600px;
+        transform: rotate(-8deg);
+    }
+
+    .img-midSize {
+        height: 150px;
+    }
+
+    .p-size-2em {
+        font-size: 1em;
+    }
+
+    .p-size-1em{
+        font-size: 1.3em;
+    }
+}
+
+@media screen and (max-width:628px){
+    .foto-Familiar img {
+        height: 400px;
+        transform: rotate(-8deg);
+    }
+
+    .interesesFamiliar{
+        display: flex;
+        flex-direction: column-reverse;
+    }
 }
